@@ -1,0 +1,267 @@
+[2026-07-08 15:13:00] warn: ⚠️  Supabase credentials not configured. Running in mock mode.
+[2026-07-08 15:13:00] warn: 🔧 Using in-memory mock database — configure SUPABASE_URL for persistence
+[2026-07-08 15:13:00] info: 🚛 Fleet API running on http://localhost:4000
+[2026-07-08 15:13:00] info: 📡 Webhook endpoint: http://localhost:4000/api/webhook
+[2026-07-08 15:13:00] info: 🌍 Environment: development
+[2026-07-08 16:06:06] warn: ⚠️  Supabase credentials not configured. Running in mock mode.
+[2026-07-08 16:06:06] warn: 🔧 Using in-memory mock database — configure SUPABASE_URL for persistence
+[2026-07-08 16:06:06] info: 🚛 Fleet API running on http://localhost:4000
+[2026-07-08 16:06:06] info: 📡 Webhook endpoint: http://localhost:4000/api/webhook
+[2026-07-08 16:06:06] info: 🌍 Environment: development
+[2026-07-08 16:06:39] info: ::1 - - [08/Jul/2026:10:36:39 +0000] "GET /api/invoices HTTP/1.1" 401 40 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 16:06:39] info: ::1 - - [08/Jul/2026:10:36:39 +0000] "GET /api/invoices HTTP/1.1" 401 40 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 16:45:29] warn: ⚠️  Supabase credentials not configured. Running in mock mode.
+[2026-07-08 16:45:29] warn: 🔧 Using in-memory mock database — configure SUPABASE_URL for persistence
+[2026-07-08 16:45:29] info: 🚛 Fleet API running on http://localhost:4000
+[2026-07-08 16:45:29] info: 📡 Webhook endpoint: http://localhost:4000/api/webhook
+[2026-07-08 16:45:29] info: 🌍 Environment: development
+[2026-07-08 16:49:10] info: ::1 - - [08/Jul/2026:11:19:10 +0000] "GET /api/invoices HTTP/1.1" 401 40 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 16:49:10] info: ::1 - - [08/Jul/2026:11:19:10 +0000] "GET /api/invoices HTTP/1.1" 401 40 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 16:52:40] error: POST /api/portal/driver/auth/login — supabase.from(...).select(...).or is not a function
+TypeError: supabase.from(...).select(...).or is not a function
+    at C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverAuth.js:20:8
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\index.js:47:12)
+[2026-07-08 16:52:40] info: ::1 - - [08/Jul/2026:11:22:40 +0000] "POST /api/portal/driver/auth/login HTTP/1.1" 500 1252 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 16:52:43] error: POST /api/portal/driver/auth/login — supabase.from(...).select(...).or is not a function
+TypeError: supabase.from(...).select(...).or is not a function
+    at C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverAuth.js:20:8
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\index.js:47:12)
+[2026-07-08 16:52:43] info: ::1 - - [08/Jul/2026:11:22:43 +0000] "POST /api/portal/driver/auth/login HTTP/1.1" 500 1252 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 16:53:43] warn: ⚠️  Supabase credentials not configured. Running in mock mode.
+[2026-07-08 16:53:43] warn: 🔧 Using in-memory mock database — configure SUPABASE_URL for persistence
+[2026-07-08 16:53:44] info: 🚛 Fleet API running on http://localhost:4000
+[2026-07-08 16:53:44] info: 📡 Webhook endpoint: http://localhost:4000/api/webhook
+[2026-07-08 16:53:44] info: 🌍 Environment: development
+[2026-07-08 16:54:13] info: ::1 - - [08/Jul/2026:11:24:13 +0000] "POST /api/portal/driver/auth/login HTTP/1.1" 200 373 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 16:54:16] info: ::1 - - [08/Jul/2026:11:24:16 +0000] "POST /api/portal/driver/auth/login HTTP/1.1" 200 373 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 16:54:17] warn: JWT verification failed: invalid signature
+[2026-07-08 16:54:17] info: ::1 - - [08/Jul/2026:11:24:17 +0000] "GET /api/portal/driver/expenses/dashboard HTTP/1.1" 401 25 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 16:54:17] warn: JWT verification failed: invalid signature
+[2026-07-08 16:54:17] info: ::1 - - [08/Jul/2026:11:24:17 +0000] "GET /api/portal/driver/expenses/dashboard HTTP/1.1" 401 25 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 16:55:15] info: ::1 - - [08/Jul/2026:11:25:15 +0000] "POST /api/portal/driver/auth/login HTTP/1.1" 200 373 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 16:55:15] warn: JWT verification failed: invalid signature
+[2026-07-08 16:55:15] info: ::1 - - [08/Jul/2026:11:25:15 +0000] "GET /api/portal/driver/expenses/dashboard HTTP/1.1" 401 25 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 16:55:15] warn: JWT verification failed: invalid signature
+[2026-07-08 16:55:15] info: ::1 - - [08/Jul/2026:11:25:15 +0000] "GET /api/portal/driver/expenses/dashboard HTTP/1.1" 401 25 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 16:59:07] info: ::1 - - [08/Jul/2026:11:29:07 +0000] "POST /api/auth/login HTTP/1.1" 401 31 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 16:59:09] info: ::1 - - [08/Jul/2026:11:29:09 +0000] "POST /api/auth/login HTTP/1.1" 401 31 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:00:50] info: ::1 - - [08/Jul/2026:11:30:50 +0000] "POST /api/portal/driver/auth/login HTTP/1.1" 200 373 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:00:50] warn: JWT verification failed: invalid signature
+[2026-07-08 17:00:50] info: ::1 - - [08/Jul/2026:11:30:50 +0000] "GET /api/portal/driver/expenses/dashboard HTTP/1.1" 401 25 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:00:50] warn: JWT verification failed: invalid signature
+[2026-07-08 17:00:50] info: ::1 - - [08/Jul/2026:11:30:50 +0000] "GET /api/portal/driver/expenses/dashboard HTTP/1.1" 401 25 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:07:30] warn: ⚠️  Supabase credentials not configured. Running in mock mode.
+[2026-07-08 17:07:30] warn: 🔧 Using in-memory mock database — configure SUPABASE_URL for persistence
+[2026-07-08 17:07:31] info: 🚛 Fleet API running on http://localhost:4000
+[2026-07-08 17:07:31] info: 📡 Webhook endpoint: http://localhost:4000/api/webhook
+[2026-07-08 17:07:31] info: 🌍 Environment: development
+[2026-07-08 17:08:27] info: ::1 - - [08/Jul/2026:11:38:27 +0000] "POST /api/portal/driver/auth/login HTTP/1.1" 200 373 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:08:28] error: GET /api/portal/driver/expenses/dashboard — supabase.from(...).select(...).eq(...).eq is not a function
+TypeError: supabase.from(...).select(...).eq(...).eq is not a function
+    at C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:62:97
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at requireDriver (C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:9:3)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\khanw\Desktop\FLEET\api\middleware\auth.js:19:5)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:119:3)
+[2026-07-08 17:08:28] info: ::1 - - [08/Jul/2026:11:38:28 +0000] "GET /api/portal/driver/expenses/dashboard HTTP/1.1" 500 1258 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:08:28] error: GET /api/portal/driver/expenses/dashboard — supabase.from(...).select(...).eq(...).eq is not a function
+TypeError: supabase.from(...).select(...).eq(...).eq is not a function
+    at C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:62:97
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at requireDriver (C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:9:3)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\khanw\Desktop\FLEET\api\middleware\auth.js:19:5)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:119:3)
+[2026-07-08 17:08:28] info: ::1 - - [08/Jul/2026:11:38:28 +0000] "GET /api/portal/driver/expenses/dashboard HTTP/1.1" 500 1258 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:08:33] error: GET /api/portal/driver/expenses/dashboard — supabase.from(...).select(...).eq(...).eq is not a function
+TypeError: supabase.from(...).select(...).eq(...).eq is not a function
+    at C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:62:97
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at requireDriver (C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:9:3)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\khanw\Desktop\FLEET\api\middleware\auth.js:19:5)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:119:3)
+[2026-07-08 17:08:33] info: ::1 - - [08/Jul/2026:11:38:33 +0000] "GET /api/portal/driver/expenses/dashboard HTTP/1.1" 500 1258 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:08:33] error: GET /api/portal/driver/expenses/dashboard — supabase.from(...).select(...).eq(...).eq is not a function
+TypeError: supabase.from(...).select(...).eq(...).eq is not a function
+    at C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:62:97
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at requireDriver (C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:9:3)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\khanw\Desktop\FLEET\api\middleware\auth.js:19:5)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:119:3)
+[2026-07-08 17:08:33] info: ::1 - - [08/Jul/2026:11:38:33 +0000] "GET /api/portal/driver/expenses/dashboard HTTP/1.1" 500 1258 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:08:56] info: ::1 - - [08/Jul/2026:11:38:56 +0000] "POST /api/portal/driver/auth/login HTTP/1.1" 200 373 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:08:56] error: GET /api/portal/driver/expenses/dashboard — supabase.from(...).select(...).eq(...).eq is not a function
+TypeError: supabase.from(...).select(...).eq(...).eq is not a function
+    at C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:62:97
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at requireDriver (C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:9:3)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\khanw\Desktop\FLEET\api\middleware\auth.js:19:5)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:119:3)
+[2026-07-08 17:08:56] info: ::1 - - [08/Jul/2026:11:38:56 +0000] "GET /api/portal/driver/expenses/dashboard HTTP/1.1" 500 1258 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:08:56] error: GET /api/portal/driver/expenses/dashboard — supabase.from(...).select(...).eq(...).eq is not a function
+TypeError: supabase.from(...).select(...).eq(...).eq is not a function
+    at C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:62:97
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at requireDriver (C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:9:3)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\khanw\Desktop\FLEET\api\middleware\auth.js:19:5)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:119:3)
+[2026-07-08 17:08:56] info: ::1 - - [08/Jul/2026:11:38:56 +0000] "GET /api/portal/driver/expenses/dashboard HTTP/1.1" 500 1258 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:09:15] info: ::1 - - [08/Jul/2026:11:39:15 +0000] "POST /api/portal/driver/auth/login HTTP/1.1" 200 373 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:09:15] error: GET /api/portal/driver/expenses/dashboard — supabase.from(...).select(...).eq(...).eq is not a function
+TypeError: supabase.from(...).select(...).eq(...).eq is not a function
+    at C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:62:97
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at requireDriver (C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:9:3)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\khanw\Desktop\FLEET\api\middleware\auth.js:19:5)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:119:3)
+[2026-07-08 17:09:15] info: ::1 - - [08/Jul/2026:11:39:15 +0000] "GET /api/portal/driver/expenses/dashboard HTTP/1.1" 500 1258 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:09:15] error: GET /api/portal/driver/expenses/dashboard — supabase.from(...).select(...).eq(...).eq is not a function
+TypeError: supabase.from(...).select(...).eq(...).eq is not a function
+    at C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:62:97
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at requireDriver (C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:9:3)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\khanw\Desktop\FLEET\api\middleware\auth.js:19:5)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:119:3)
+[2026-07-08 17:09:15] info: ::1 - - [08/Jul/2026:11:39:15 +0000] "GET /api/portal/driver/expenses/dashboard HTTP/1.1" 500 1258 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:09:19] info: ::1 - - [08/Jul/2026:11:39:19 +0000] "POST /api/portal/driver/auth/login HTTP/1.1" 200 373 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:09:20] error: GET /api/portal/driver/expenses/dashboard — supabase.from(...).select(...).eq(...).eq is not a function
+TypeError: supabase.from(...).select(...).eq(...).eq is not a function
+    at C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:62:97
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at requireDriver (C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:9:3)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\khanw\Desktop\FLEET\api\middleware\auth.js:19:5)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:119:3)
+[2026-07-08 17:09:20] info: ::1 - - [08/Jul/2026:11:39:20 +0000] "GET /api/portal/driver/expenses/dashboard HTTP/1.1" 500 1258 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:09:20] error: GET /api/portal/driver/expenses/dashboard — supabase.from(...).select(...).eq(...).eq is not a function
+TypeError: supabase.from(...).select(...).eq(...).eq is not a function
+    at C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:62:97
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at requireDriver (C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:9:3)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\khanw\Desktop\FLEET\api\middleware\auth.js:19:5)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:119:3)
+[2026-07-08 17:09:20] info: ::1 - - [08/Jul/2026:11:39:20 +0000] "GET /api/portal/driver/expenses/dashboard HTTP/1.1" 500 1258 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:09:32] info: ::1 - - [08/Jul/2026:11:39:32 +0000] "POST /api/portal/driver/auth/login HTTP/1.1" 200 373 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:09:32] error: GET /api/portal/driver/expenses/dashboard — supabase.from(...).select(...).eq(...).eq is not a function
+TypeError: supabase.from(...).select(...).eq(...).eq is not a function
+    at C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:62:97
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at requireDriver (C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:9:3)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\khanw\Desktop\FLEET\api\middleware\auth.js:19:5)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:119:3)
+[2026-07-08 17:09:32] info: ::1 - - [08/Jul/2026:11:39:32 +0000] "GET /api/portal/driver/expenses/dashboard HTTP/1.1" 500 1258 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:09:32] error: GET /api/portal/driver/expenses/dashboard — supabase.from(...).select(...).eq(...).eq is not a function
+TypeError: supabase.from(...).select(...).eq(...).eq is not a function
+    at C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:62:97
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at requireDriver (C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:9:3)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\khanw\Desktop\FLEET\api\middleware\auth.js:19:5)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:119:3)
+[2026-07-08 17:09:32] info: ::1 - - [08/Jul/2026:11:39:32 +0000] "GET /api/portal/driver/expenses/dashboard HTTP/1.1" 500 1258 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:12:03] warn: ⚠️  Supabase credentials not configured. Running in mock mode.
+[2026-07-08 17:12:03] warn: 🔧 Using in-memory mock database — configure SUPABASE_URL for persistence
+[2026-07-08 17:12:04] info: 🚛 Fleet API running on http://localhost:4000
+[2026-07-08 17:12:04] info: 📡 Webhook endpoint: http://localhost:4000/api/webhook
+[2026-07-08 17:12:04] info: 🌍 Environment: development
+[2026-07-08 17:14:07] info: ::1 - - [08/Jul/2026:11:44:07 +0000] "POST /api/portal/driver/auth/login HTTP/1.1" 200 373 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:14:07] info: ::1 - - [08/Jul/2026:11:44:07 +0000] "GET /api/portal/driver/expenses/dashboard HTTP/1.1" 200 217 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:14:07] info: ::1 - - [08/Jul/2026:11:44:07 +0000] "GET /api/portal/driver/expenses/dashboard HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:14:28] info: ::1 - - [08/Jul/2026:11:44:28 +0000] "GET /api/portal/driver/expenses/dashboard HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:14:28] info: ::1 - - [08/Jul/2026:11:44:28 +0000] "GET /api/portal/driver/expenses/dashboard HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:19:45] info: ::1 - - [08/Jul/2026:11:49:45 +0000] "POST /api/portal/driver/auth/login HTTP/1.1" 200 373 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:19:46] info: ::1 - - [08/Jul/2026:11:49:46 +0000] "GET /api/portal/driver/expenses/dashboard HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:19:46] info: ::1 - - [08/Jul/2026:11:49:46 +0000] "GET /api/portal/driver/expenses/dashboard HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:21:48] info: ::1 - - [08/Jul/2026:11:51:48 +0000] "GET /api/portal/driver/expenses/dashboard HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:21:48] info: ::1 - - [08/Jul/2026:11:51:48 +0000] "GET /api/portal/driver/expenses/dashboard HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:21:54] info: ::1 - - [08/Jul/2026:11:51:54 +0000] "POST /api/portal/driver/auth/login HTTP/1.1" 200 373 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:21:54] info: ::1 - - [08/Jul/2026:11:51:54 +0000] "GET /api/portal/driver/expenses/dashboard HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:21:54] info: ::1 - - [08/Jul/2026:11:51:54 +0000] "GET /api/portal/driver/expenses/dashboard HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:22:29] info: ::1 - - [08/Jul/2026:11:52:29 +0000] "GET /api/portal/driver/expenses/dashboard HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:22:29] info: ::1 - - [08/Jul/2026:11:52:29 +0000] "GET /api/portal/driver/expenses/dashboard HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:24:24] info: ::1 - - [08/Jul/2026:11:54:24 +0000] "POST /api/portal/driver/auth/login HTTP/1.1" 200 373 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:24:24] info: ::1 - - [08/Jul/2026:11:54:24 +0000] "GET /api/portal/driver/expenses/dashboard HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:24:24] info: ::1 - - [08/Jul/2026:11:54:24 +0000] "GET /api/portal/driver/expenses/dashboard HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:25:03] info: ::1 - - [08/Jul/2026:11:55:03 +0000] "GET /api/portal/driver/expenses/dashboard HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:25:03] info: ::1 - - [08/Jul/2026:11:55:03 +0000] "GET /api/portal/driver/expenses/dashboard HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:25:49] info: ::1 - - [08/Jul/2026:11:55:49 +0000] "POST /api/auth/login HTTP/1.1" 401 31 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-08 17:26:21] info: ::1 - - [08/Jul/2026:11:56:21 +0000] "POST /api/auth/login HTTP/1.1" 401 31 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+[2026-07-10 14:38:22] warn: ⚠️  Supabase credentials not configured. Running in mock mode.
+[2026-07-10 14:38:22] warn: 🔧 Using in-memory mock database — configure SUPABASE_URL for persistence
+[2026-07-17 13:05:49] warn: ⚠️  Supabase credentials not configured. Running in mock mode.
+[2026-07-17 13:05:49] warn: 🔧 Using in-memory mock database — configure SUPABASE_URL for persistence
+[2026-07-17 13:07:40] warn: ⚠️  Supabase credentials not configured. Running in mock mode.
+[2026-07-17 13:07:40] warn: 🔧 Using in-memory mock database — configure SUPABASE_URL for persistence

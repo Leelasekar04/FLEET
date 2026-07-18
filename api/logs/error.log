@@ -1,0 +1,16 @@
+[2026-07-11 10:57:31] error: POST /api/vehicles — Cannot read properties of undefined (reading '0')
+TypeError: Cannot read properties of undefined (reading '0')
+    at C:\Users\khanw\Desktop\FLEET\api\routes\vehicles.js:34:80
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+[2026-07-17 12:32:33] error: PUT /api/portal/accountant/expenses/1/status — Not found
+Error: Not found
+    at D:\FLEET\api\routes\portal\accountantExpenses.js:83:22
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+[2026-07-17 12:32:58] error: PUT /api/portal/accountant/expenses/1/status — Not found
+Error: Not found
+    at D:\FLEET\api\routes\portal\accountantExpenses.js:83:22
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+[2026-07-17 12:34:12] error: PUT /api/portal/accountant/expenses/1/status — Not found
+Error: Not found
+    at D:\FLEET\api\routes\portal\accountantExpenses.js:83:22
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)

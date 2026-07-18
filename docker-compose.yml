@@ -1,0 +1,88 @@
+version: "3.9"
+
+services:
+  # --------------------------------------------------------
+  # PostgreSQL Database (local dev)
+  # --------------------------------------------------------
+  postgres:
+    image: postgres:16-alpine
+    container_name: fleet_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: fleet_db
+      POSTGRES_USER: fleet_user
+      POSTGRES_PASSWORD: fleet_pass
+    ports:
+      - "5432:5432"
+    volumes:
+      - fleet_pgdata:/var/lib/postgresql/data
+      - ./database/schema.sql:/docker-entrypoint-initdb.d/01_schema.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U fleet_user -d fleet_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # --------------------------------------------------------
+  # pgAdmin — Database UI (optional)
+  # --------------------------------------------------------
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: fleet_pgadmin
+    restart: unless-stopped
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@fleet.local
+      PGADMIN_DEFAULT_PASSWORD: admin123
+    ports:
+      - "5050:80"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - fleet_pgadmin:/var/lib/pgadmin
+    profiles:
+      - tools
+
+  # --------------------------------------------------------
+  # Backend API
+  # --------------------------------------------------------
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    container_name: fleet_api
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql://fleet_user:fleet_pass@postgres:5432/fleet_db
+      NODE_ENV: production
+    ports:
+      - "4000:4000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ./api:/app
+      - /app/node_modules
+    command: node index.js
+
+  # --------------------------------------------------------
+  # Frontend (Next.js)
+  # --------------------------------------------------------
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: fleet_frontend
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      NEXT_PUBLIC_API_URL: http://api:4000
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api
+
+volumes:
+  fleet_pgdata:
+  fleet_pgadmin:

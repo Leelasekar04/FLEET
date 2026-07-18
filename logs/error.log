@@ -1,0 +1,168 @@
+[2026-07-08 16:52:40] error: POST /api/portal/driver/auth/login — supabase.from(...).select(...).or is not a function
+TypeError: supabase.from(...).select(...).or is not a function
+    at C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverAuth.js:20:8
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\index.js:47:12)
+[2026-07-08 16:52:43] error: POST /api/portal/driver/auth/login — supabase.from(...).select(...).or is not a function
+TypeError: supabase.from(...).select(...).or is not a function
+    at C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverAuth.js:20:8
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\index.js:47:12)
+[2026-07-08 17:08:28] error: GET /api/portal/driver/expenses/dashboard — supabase.from(...).select(...).eq(...).eq is not a function
+TypeError: supabase.from(...).select(...).eq(...).eq is not a function
+    at C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:62:97
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at requireDriver (C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:9:3)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\khanw\Desktop\FLEET\api\middleware\auth.js:19:5)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:119:3)
+[2026-07-08 17:08:28] error: GET /api/portal/driver/expenses/dashboard — supabase.from(...).select(...).eq(...).eq is not a function
+TypeError: supabase.from(...).select(...).eq(...).eq is not a function
+    at C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:62:97
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at requireDriver (C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:9:3)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\khanw\Desktop\FLEET\api\middleware\auth.js:19:5)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:119:3)
+[2026-07-08 17:08:33] error: GET /api/portal/driver/expenses/dashboard — supabase.from(...).select(...).eq(...).eq is not a function
+TypeError: supabase.from(...).select(...).eq(...).eq is not a function
+    at C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:62:97
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at requireDriver (C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:9:3)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\khanw\Desktop\FLEET\api\middleware\auth.js:19:5)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:119:3)
+[2026-07-08 17:08:33] error: GET /api/portal/driver/expenses/dashboard — supabase.from(...).select(...).eq(...).eq is not a function
+TypeError: supabase.from(...).select(...).eq(...).eq is not a function
+    at C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:62:97
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at requireDriver (C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:9:3)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\khanw\Desktop\FLEET\api\middleware\auth.js:19:5)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:119:3)
+[2026-07-08 17:08:56] error: GET /api/portal/driver/expenses/dashboard — supabase.from(...).select(...).eq(...).eq is not a function
+TypeError: supabase.from(...).select(...).eq(...).eq is not a function
+    at C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:62:97
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at requireDriver (C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:9:3)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\khanw\Desktop\FLEET\api\middleware\auth.js:19:5)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:119:3)
+[2026-07-08 17:08:56] error: GET /api/portal/driver/expenses/dashboard — supabase.from(...).select(...).eq(...).eq is not a function
+TypeError: supabase.from(...).select(...).eq(...).eq is not a function
+    at C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:62:97
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at requireDriver (C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:9:3)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\khanw\Desktop\FLEET\api\middleware\auth.js:19:5)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:119:3)
+[2026-07-08 17:09:15] error: GET /api/portal/driver/expenses/dashboard — supabase.from(...).select(...).eq(...).eq is not a function
+TypeError: supabase.from(...).select(...).eq(...).eq is not a function
+    at C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:62:97
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at requireDriver (C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:9:3)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\khanw\Desktop\FLEET\api\middleware\auth.js:19:5)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:119:3)
+[2026-07-08 17:09:15] error: GET /api/portal/driver/expenses/dashboard — supabase.from(...).select(...).eq(...).eq is not a function
+TypeError: supabase.from(...).select(...).eq(...).eq is not a function
+    at C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:62:97
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at requireDriver (C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:9:3)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\khanw\Desktop\FLEET\api\middleware\auth.js:19:5)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:119:3)
+[2026-07-08 17:09:20] error: GET /api/portal/driver/expenses/dashboard — supabase.from(...).select(...).eq(...).eq is not a function
+TypeError: supabase.from(...).select(...).eq(...).eq is not a function
+    at C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:62:97
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at requireDriver (C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:9:3)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\khanw\Desktop\FLEET\api\middleware\auth.js:19:5)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:119:3)
+[2026-07-08 17:09:20] error: GET /api/portal/driver/expenses/dashboard — supabase.from(...).select(...).eq(...).eq is not a function
+TypeError: supabase.from(...).select(...).eq(...).eq is not a function
+    at C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:62:97
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at requireDriver (C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:9:3)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\khanw\Desktop\FLEET\api\middleware\auth.js:19:5)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:119:3)
+[2026-07-08 17:09:32] error: GET /api/portal/driver/expenses/dashboard — supabase.from(...).select(...).eq(...).eq is not a function
+TypeError: supabase.from(...).select(...).eq(...).eq is not a function
+    at C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:62:97
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at requireDriver (C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:9:3)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\khanw\Desktop\FLEET\api\middleware\auth.js:19:5)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:119:3)
+[2026-07-08 17:09:32] error: GET /api/portal/driver/expenses/dashboard — supabase.from(...).select(...).eq(...).eq is not a function
+TypeError: supabase.from(...).select(...).eq(...).eq is not a function
+    at C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:62:97
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at requireDriver (C:\Users\khanw\Desktop\FLEET\api\routes\portal\driverExpenses.js:9:3)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\khanw\Desktop\FLEET\api\middleware\auth.js:19:5)
+    at Layer.handle [as handle_request] (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\khanw\Desktop\FLEET\api\node_modules\express\lib\router\route.js:119:3)
