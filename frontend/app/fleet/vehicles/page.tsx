@@ -226,6 +226,7 @@ export default function VehiclesPage() {
   const [showAddModal, setShowAddModal] = useState(false);
   const [showImportModal, setShowImportModal] = useState(false);
   const [showExportModal, setShowExportModal] = useState(false);
+  const [editingId, setEditingId] = useState<string | null>(null);
   
   // Add Modal Form State
   const [formData, setFormData] = useState({
